@@ -1,0 +1,50 @@
+.shipment-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .receipt {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .receipt-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .item-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .item-value {
+    flex: 1;
+    text-align: right;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* form.css */
+.download-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
